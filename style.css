@@ -1,0 +1,55 @@
+/* Styles for header */
+header {
+    background-color: #f5f5f5;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+/* Styles for main content */
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 70px 20px;
+    text-align: center;
+}
+
+main p {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.order-button {
+    background-color: #000;
+    color: #fff;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.order-button:hover {
+    background-color: #808080;
+    color: #fff;
+}
+
+/* Styles for footer */
+footer {
+    background-color: #f5f5f5;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    font-size: 16px;
+    margin: 10px 0;
+}
